@@ -1,0 +1,75 @@
+body {
+    font-family: Segoe UI;
+    width: 50%;
+}
+.table-section {
+    width: 445px;
+    border: 1px solid black;
+    padding: 5px 10px 15px 3px;
+    float: left;
+}
+.table {
+    display:table;
+}
+.table fieldset {
+    float: left;
+}
+#caption {
+    display: table-caption;
+    margin: 0;
+}
+#col1-row2 {
+    display: table-row;
+    text-align:center;
+    margin-top: 20px;
+}
+#column1 {
+    display: table-column-group;
+    float: left;
+}
+#row1 {
+    display: table-cell;
+    
+}
+#row2 {
+    display: table-row-group;
+}
+#row3 {
+    display: table-cell;
+    width: 90px;
+}
+div:nth-child(1n+3){
+    padding: 7px 0 5px 0;
+}
+sub {
+    font-size: 17px;
+}
+#big {
+    font-size: 16px;
+    vertical-align:sub;
+}
+#small {
+    font-size: 13px;
+}
+input {
+    width: 200px;
+    padding: 15px 0 15px 0;
+}
+#slide {
+    margin-left: 470px;
+}
+#slide span {
+    font-size: 22px;
+    font-family: Calibri;
+}
+header {
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-bottom: 1px solid #111;
+    text-align: center;
+}
+a {
+    color: skyblue;
+    font-weight: bold;
+}

@@ -1,0 +1,57 @@
+@import url('reset.css');
+body{
+    background:#595959;
+}
+table{
+    text-shadow:1px 1px 1px #555;
+    font-family:Tahoma;
+    text-align:left;
+}
+td{
+    padding:10px 0 10px 0;
+}
+h1{
+    color:#ccc;
+    font-size:25px;
+    font-weight:normal;
+}
+.caption,.yellow_text,.red_text,.grey_text{
+    font-size:16px;
+    line-height:16px;
+}
+.yellow_text{
+    text-decoration:none;
+}
+#captions{
+    width:155px;
+}
+#data{
+    width:180px;
+}
+.caption{
+    color:#ddd;
+    font-style:italic;
+}
+td.caption:after{
+    content:':';
+}
+.green_point{
+    width:16px;
+    height:16px;
+    border-radius:8px;
+    background:#71b47a;
+    margin:0 5px 0 5px;
+}
+td span,a{
+    float:left;
+}
+.yellow_text{
+    color:#ede9a2;
+}
+.red_text{
+    clear:both;
+    color:#ff0000;
+    margin-top:3px;}
+.grey_text{
+    color:#888;
+}

@@ -1,0 +1,57 @@
+body {
+    background-color: #333;
+    margin-top: 40px;
+}
+body section {
+    border: 1px solid #f6d01a;
+    width: 60%;
+    height: 340px;
+    margin: 0 auto;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    box-shadow: -100px -240px 390px 30px #555;
+    width: 800px;
+}
+body header {
+    background-color: #383838;
+    height: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: inset -1px -4px 15px
+}
+header img {
+    float: left;
+    width: 50px;
+    margin: 10px;
+}
+#go-button {
+    width: 66px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+header label {
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 27px;
+}
+header input:nth-last-child(1n+2) {
+    width: 140px;
+   margin: 25px 10px;
+}
+section article {
+    margin: 10px;
+}
+section h1 {
+    font-size: 30px;
+    color: #f6d01a;
+}
+section article p {
+    color: #ccc;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+section article p span {
+    color: white;
+}
